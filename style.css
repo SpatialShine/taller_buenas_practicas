@@ -1,7 +1,17 @@
 @font-face {
   font-family: 'DaydreamCustom';
-  src: url('./fonts/Daydream.ttf') format('truetype');
+  src: url('./fonts/Daydream DEMO.otf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+
+:root{
+  --bg-pink: #ffeef6;
+  --soft-pink: #ffd6ea;
+  --pastel-lilac: #efe1ff;
+  --accent: #ff9ecf;
+  --muted: #7b5b6a;
+  --card-bg: rgba(255,255,255,0.7);
+  --pixel-grid: 18px;
 }
