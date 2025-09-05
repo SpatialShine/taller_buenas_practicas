@@ -33,3 +33,13 @@ body{
   position: relative;
   z-index: 5; /* encima del fondo animado */
 }
+
+.hero{
+  text-align:center;
+  margin-bottom: 1.2rem;
+  padding: 1rem 1.2rem;
+  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(255,255,255,0.35));
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(176,144,172,0.12);
+  border: 2px solid rgba(255,160,190,0.12);
+}
