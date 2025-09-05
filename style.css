@@ -96,3 +96,26 @@ body{
   min-height: 220px;
   padding: 0.6rem;
 }
+
+.slide { display: none; opacity:0; transform: translateY(6px); transition: all 450ms cubic-bezier(.2,.9,.3,1); }
+.slide.active { display: block; opacity:1; transform: translateY(0); }
+
+.photo-wrap{
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background: linear-gradient(180deg, rgba(255,255,255,0.2), rgba(255,240,250,0.1));
+}
+
+.photo{
+  display:block;
+  max-width: 100%;
+  height: auto;
+  image-rendering: pixelated; /* efecto pixel-art en imágenes pequeñas */
+  transition: transform 700ms ease, filter 700ms ease;
+  will-change: transform, filter;
+  transform-origin: center;
+}
