@@ -25,3 +25,11 @@ body{
   overflow-x: hidden;
   position: relative;
 }
+
+.container{
+  max-width: 980px;
+  margin: 3rem auto;
+  padding: 1.5rem;
+  position: relative;
+  z-index: 5; /* encima del fondo animado */
+}
