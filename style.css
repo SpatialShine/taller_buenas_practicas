@@ -43,3 +43,12 @@ body{
   box-shadow: 0 6px 18px rgba(176,144,172,0.12);
   border: 2px solid rgba(255,160,190,0.12);
 }
+
+.title{
+  font-family: 'DaydreamCustom', 'Quicksand', sans-serif;
+  font-size: 2.6rem;
+  line-height: 1;
+  color: #ec6aa6;
+  text-shadow: 0 2px 0 rgba(255,255,255,0.6), 0 6px 18px rgba(236,106,166,0.08);
+  margin-bottom: 0.2rem;
+}
