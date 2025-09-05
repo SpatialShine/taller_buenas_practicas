@@ -79,3 +79,20 @@ body{
   margin-left: 1.2rem;
   margin-bottom: 1rem;
 }
+
+.slider-card{
+  margin-top: 1rem;
+  background: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,250,255,0.4));
+  border-radius:14px;
+  padding:1rem;
+  box-shadow: 0 10px 30px rgba(182,138,174,0.08);
+  border: 1px solid rgba(255,180,200,0.12);
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  min-height: 220px;
+  padding: 0.6rem;
+}
