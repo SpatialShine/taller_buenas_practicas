@@ -150,3 +150,5 @@ body{
   transition: transform 160ms ease;
   box-shadow: 0 6px 12px rgba(220,150,190,0.06);
 }
+
+.star-btn { background-image: url('./assets/star-discord.gif'); }
