@@ -178,3 +178,18 @@ body::before{
   transform-origin: center;
   image-rendering: pixelated;
 }
+
+@keyframes floaty {
+  0% { transform: translateY(0) rotate(-2deg); opacity: 0.95; }
+  50% { transform: translateY(-6px) rotate(2deg); opacity: 1; }
+  100% { transform: translateY(0) rotate(-2deg); opacity: 0.95; }
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.2; transform: scale(0.95); }
+  50% { opacity: 1; transform: scale(1.06); }
+  100% { opacity: 0.2; transform: scale(0.95); }
+}
+
+.mbg-flower { animation: floaty 6s ease-in-out infinite; }
+.mbg-star   { animation: twinkle 2s linear infinite; filter: drop-shadow(0 3px 8px rgba(255,160,200,0.08)); }
