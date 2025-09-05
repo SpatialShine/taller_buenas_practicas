@@ -52,3 +52,30 @@ body{
   text-shadow: 0 2px 0 rgba(255,255,255,0.6), 0 6px 18px rgba(236,106,166,0.08);
   margin-bottom: 0.2rem;
 }
+
+.subtitle{
+  color:#9b6a7f;
+  opacity:0.95;
+  font-weight:500;
+}
+
+.info-card{
+  background: var(--card-bg);
+  padding:1rem;
+  border-radius:12px;
+  margin-bottom:1.2rem;
+  border: 1px solid rgba(255,255,255,0.6);
+  backdrop-filter: blur(4px);
+}
+
+.section-title{
+  font-family: 'DaydreamCustom', 'Quicksand', sans-serif;
+  font-size:1.2rem;
+  color:#d25894;
+  margin-bottom:0.6rem;
+}
+
+.hobbies, .series-list {
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+}
