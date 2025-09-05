@@ -193,3 +193,9 @@ body::before{
 
 .mbg-flower { animation: floaty 6s ease-in-out infinite; }
 .mbg-star   { animation: twinkle 2s linear infinite; filter: drop-shadow(0 3px 8px rgba(255,160,200,0.08)); }
+
+@media (max-width:720px){
+  .title{ font-size:2rem }
+  .container{ padding: 1rem }
+  .mbg-el{ width:48px; height:48px }
+}
