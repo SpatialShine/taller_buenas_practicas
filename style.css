@@ -168,3 +168,13 @@ body::before{
   z-index: 1;
   mix-blend-mode: overlay;
 }
+
+.mbg-el{
+  position: fixed;
+  width: 64px;
+  height: 64px;
+  pointer-events: none;
+  z-index: 2;
+  transform-origin: center;
+  image-rendering: pixelated;
+}
